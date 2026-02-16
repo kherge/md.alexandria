@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1771222887546,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1771222905810,
+          "path": "Bases/Journal/Diary.base",
+          "title": "Diary"
+        },
+        {
+          "type": "file",
+          "ctime": 1771222912686,
+          "path": "Bases/Journal/Ideas.base",
+          "title": "Ideas"
+        },
+        {
+          "type": "file",
+          "ctime": 1771222919627,
+          "path": "Bases/Journal/Reviews.base",
+          "title": "Reviews"
+        }
+      ],
+      "title": "Journal"
+    },
+    {
+      "type": "group",
+      "ctime": 1771222893510,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1771223248947,
+          "path": "Bases/Records/Events.base",
+          "title": "Events"
+        },
+        {
+          "type": "file",
+          "ctime": 1771223409177,
+          "path": "Bases/Records/Incidents.base",
+          "title": "Incidents"
+        },
+        {
+          "type": "file",
+          "ctime": 1771255081756,
+          "path": "Bases/Records/Research.base",
+          "title": "Research"
+        }
+      ],
+      "title": "Records"
+    },
+    {
+      "type": "group",
+      "ctime": 1771222896583,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1771255096006,
+          "path": "Bases/Reference/Bookmarks.base",
+          "title": "Bookmarks"
+        },
+        {
+          "type": "file",
+          "ctime": 1771272937631,
+          "path": "Bases/Reference/Businesses.base",
+          "title": "Businesses"
+        },
+        {
+          "type": "file",
+          "ctime": 1771274221148,
+          "path": "Bases/Reference/Concepts.base",
+          "title": "Concepts"
+        },
+        {
+          "type": "file",
+          "ctime": 1771275895129,
+          "path": "Bases/Reference/Guides.base",
+          "title": "Guides"
+        },
+        {
+          "type": "file",
+          "ctime": 1771274444955,
+          "path": "Bases/Reference/Indexes.base",
+          "title": "Indexes"
+        },
+        {
+          "type": "file",
+          "ctime": 1771274703138,
+          "path": "Bases/Reference/Products.base",
+          "title": "Products"
+        }
+      ],
+      "title": "Reference"
+    },
+    {
+      "type": "file",
+      "ctime": 1771276628962,
+      "path": "Vault/Overview/Overview.md"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.overview {
+  --container-dataview-table-width: 95%;
+  --container-table-max-width: 95%;
+  /* --content-margin: 0; */
+  --line-width: 95%;
+  --max-width: 95%;
+}
+
+.overview .markdown-preview-section .el-p:has(.bases-embed:nth-child(2)) > p {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.overview .mod-ui {
+  display: none;
+}

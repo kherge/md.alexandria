@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.hasTag("reference/business")
+formulas:
+  Business: link(file, aliases[0])
+  Group: aliases[0][0]
+views:
+  - type: list
+    name: By Letter
+    groupBy:
+      property: formula.Group
+      direction: ASC
+    order:
+      - formula.Business
+    sort:
+      - property: formula.Business
+        direction: ASC

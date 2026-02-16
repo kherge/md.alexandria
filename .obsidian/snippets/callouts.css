@@ -1,0 +1,4 @@
+.callout[data-callout="prompt"] {
+  --callout-color: 159, 191, 230;
+  --callout-icon: pencil-line;
+}

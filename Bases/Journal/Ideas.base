@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.hasTag("journal/idea")
+formulas:
+  Idea: link(file, aliases[0])
+properties:
+  note.when:
+    displayName: When
+views:
+  - type: table
+    name: Recent
+    order:
+      - when
+      - formula.Idea
+    sort:
+      - property: when
+        direction: DESC
+    columnSize:
+      note.when: 200

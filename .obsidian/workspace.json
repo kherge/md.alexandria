@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "7fa6bf027eea3ac6",
+    "type": "split",
+    "children": [
+      {
+        "id": "66098dfbf597b959",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3d8688a943ccf80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6891a8b88e3c4b90",
+    "type": "split",
+    "children": [
+      {
+        "id": "157cbc0ba7a4ce32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5ea7a1c981f1323",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2c183eff0246fa66",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "ebc785955d4edba9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d9d362dfd75291d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d96bc66b6ef84e82",
+        "type": "tabs",
+        "dimension": 34.32,
+        "children": [
+          {
+            "id": "cd07e2672930d0c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5004bbc9c7f63462",
+        "type": "tabs",
+        "dimension": 33.839999999999996,
+        "children": [
+          {
+            "id": "e7c0a6e5ab1ae575",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "e306cc7d1dbee69e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vault/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0a321b8df3d78f91",
+        "type": "tabs",
+        "dimension": 31.840000000000003,
+        "children": [
+          {
+            "id": "3b60c85766e12c0d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false,
+      "templater-obsidian:Templater": false,
+      "css-editor:Open CSS editor quick switcher": false
+    }
+  },
+  "active": "d3d8688a943ccf80",
+  "lastOpenFiles": [
+    "Vault/Overview/Overview.md",
+    "Bases/Reference/Products.base",
+    "Bases/Reference/Indexes.base",
+    "Bases/Reference/Guides.base",
+    "Bases/Reference/Concepts.base",
+    "Bases/Reference/Businesses.base",
+    "Bases/Reference/Bookmarks.base",
+    "Bases/Records/Research.base",
+    "Bases/Records/Incidents.base",
+    "Bases/Records/Events.base",
+    "Bases/Journal/Reviews.base",
+    "Notes/20260216131651.md",
+    "README.md",
+    "Notes/20260216130251.md",
+    "Vault/Templates/Reference/Guide.md",
+    "Notes/20260216065739.md",
+    "Notes/20260215220816.md",
+    "Vault/Templates/Reference/Bookmark.md",
+    "Vault/Templates/Reference/Business.md",
+    "Vault/Templates/Records/Research.md",
+    "Vault/Templates/Records/Incident.md",
+    "Vault/Templates/Records/Event.md",
+    "Vault/Templates/Journal/Review.md",
+    "Vault/Templates/Journal/Idea.md",
+    "Vault/Templates/Journal/Diary.md",
+    "Notes/20260215220207.md",
+    "Notes/20260216124349.md",
+    "Vault/Templates/Reference/Product.md",
+    "Vault/Templates/Reference/Index.md",
+    "Notes/20260216123834.md",
+    "Notes/20260216123850.md",
+    "Notes/20260215220442.md",
+    "Notes/20260215220326.md",
+    "Notes/20260215220852.md",
+    "Notes/20260216073543.md"
+  ]
+}

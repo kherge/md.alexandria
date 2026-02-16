@@ -1,0 +1,4 @@
+/* Hide grouping label in Bases. */
+.bases-group-heading .bases-group-property {
+  display: none;
+}

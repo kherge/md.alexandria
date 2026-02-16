@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.hasTag("reference/product")
+formulas:
+  Product: link(file, aliases[0])
+properties:
+  note.business:
+    displayName: Business
+views:
+  - type: list
+    name: By Business
+    groupBy:
+      property: business
+      direction: ASC
+    order:
+      - formula.Product
+    sort:
+      - property: formula.Product
+        direction: ASC

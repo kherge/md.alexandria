@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.hasTag("reference/guide")
+formulas:
+  Guide: link(file, aliases[0])
+properties:
+  note.about:
+    displayName: About
+views:
+  - type: list
+    name: By About
+    groupBy:
+      property: about
+      direction: ASC
+    order:
+      - formula.Guide
+    sort:
+      - property: formula.Guide
+        direction: ASC

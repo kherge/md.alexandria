@@ -1,0 +1,5 @@
+/* Use a distinct design for virtual links. */
+.virtual-link.glossary-entry a {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+}

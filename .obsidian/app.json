@@ -1,0 +1,14 @@
+{
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "useTab": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Vault/Attachments",
+  "showUnsupportedFiles": true,
+  "trashOption": "system",
+  "userIgnoreFilters": [
+    "Vault/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes"
+}

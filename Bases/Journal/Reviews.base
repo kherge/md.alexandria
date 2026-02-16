@@ -1,0 +1,24 @@
+filters:
+  and:
+    - file.hasTag("journal/review")
+formulas:
+  Review: link(file, aliases[0])
+properties:
+  note.about:
+    displayName: About
+  note.rating:
+    displayName: Rating
+views:
+  - type: table
+    name: By Rating
+    groupBy:
+      property: rating
+      direction: DESC
+    order:
+      - about
+      - formula.Review
+    sort:
+      - property: about
+        direction: ASC
+    columnSize:
+      note.about: 202

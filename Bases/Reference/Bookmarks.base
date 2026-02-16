@@ -1,0 +1,24 @@
+filters:
+  and:
+    - file.hasTag("reference/bookmark")
+formulas:
+  Note: link(file, "(Details)")
+  Bookmark: link(website, aliases[0])
+properties:
+  note.about:
+    displayName: About
+views:
+  - type: list
+    name: By About
+    groupBy:
+      property: about
+      direction: ASC
+    order:
+      - formula.Bookmark
+      - formula.Note
+    sort:
+      - property: formula.Bookmark
+        direction: ASC
+    columnSize:
+      formula.Note: 68
+    separator: " "

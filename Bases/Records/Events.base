@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.hasTag("record/event")
+formulas:
+  Event: link(file, aliases[0])
+properties:
+  note.date:
+    displayName: Date
+views:
+  - type: table
+    name: Recent
+    order:
+      - date
+      - formula.Event
+    sort:
+      - property: date
+        direction: DESC
+    columnSize:
+      note.date: 125

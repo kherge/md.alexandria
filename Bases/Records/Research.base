@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.hasTag("record/research")
+formulas:
+  Topic: link(file, aliases[0])
+  Status: if(done, "☑️ Completed", "⏳ Pending")
+properties:
+  note.when:
+    displayName: When
+views:
+  - type: table
+    name: Recent by Status
+    groupBy:
+      property: formula.Status
+      direction: ASC
+    order:
+      - when
+      - formula.Topic
+    sort:
+      - property: when
+        direction: DESC
+    columnSize:
+      note.when: 200

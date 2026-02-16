@@ -1,0 +1,11 @@
+{
+  "showRibbon": false,
+  "cssTheme": "Minimal",
+  "translucency": true,
+  "enabledCssSnippets": [
+    "callouts",
+    "virtualLinks",
+    "bases",
+    "overview"
+  ]
+}

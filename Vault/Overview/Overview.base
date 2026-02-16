@@ -1,0 +1,61 @@
+filters:
+  and:
+    - file.inFolder("Notes")
+formulas:
+  Subject: link(file, aliases[0])
+  When: when.relative()
+  Status: if(done, "☑️ Completed", "⏳ Pending")
+  Incident: link(file, aliases[0])
+  Updated: file.mtime.relative()
+  Note: link(file, if(aliases, aliases[0], file.basename))
+properties:
+  note.when:
+    displayName: When
+  file.mtime:
+    displayName: Updated
+views:
+  - type: table
+    name: Diary
+    filters:
+      and:
+        - file.hasTag("journal/diary")
+    order:
+      - formula.When
+      - formula.Subject
+    sort:
+      - property: when
+        direction: DESC
+    limit: 15
+    columnSize:
+      formula.When: 130
+  - type: table
+    name: Incidents
+    filters:
+      and:
+        - file.hasTag("record/incident")
+    groupBy:
+      property: formula.Status
+      direction: ASC
+    order:
+      - formula.When
+      - formula.Incident
+    sort:
+      - property: formula.Incident
+        direction: ASC
+    limit: 15
+    columnSize:
+      formula.When: 130
+  - type: table
+    name: Activity
+    filters:
+      and:
+        - '!file.hasTag("journal/diary", "record/incident")'
+    order:
+      - formula.Updated
+      - formula.Note
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 10
+    columnSize:
+      formula.Updated: 157
