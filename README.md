@@ -7,7 +7,7 @@ This is an opinionated [Obsidian](https://obsidian.md) [vault](https://help.obsi
 To get started:
 
 1. Install Obsidian.
-2. Grab a copy of this vault and unzip it.
+2. Grab [a copy of this vault](https://github.com/kherge/md.alexandria/archive/refs/heads/main.zip) and unzip it.
 3. Open the folder as a vault in Obsidian.
 
 ## Taking Notes
